@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void somar() {
+// ESSE COMENTARIO FOI ADICIONADO NA HOTFIX
+void somar() { 
     float a, b;
     printf("Digite dois números: ");
     scanf("%f %f", &a, &b);
