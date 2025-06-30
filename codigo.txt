@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void somar() {
+    float a, b;
+    printf("Digite dois números: ");
+    scanf("%f %f", &a, &b);
+    printf("Resultado: %.2f\n", a + b);
+}
+
+int main() {
+    int opcao;
+    
+    printf("Escolha uma operação:\n");
+    printf("1. Somar\n");
+    printf("Opção: ");
+    scanf("%d", &opcao);
+    
+    switch(opcao) {
+        case 1: somar(); break;
+        default: printf("Opção inválida!\n");
+    }
+    
+    return 0;
+}
